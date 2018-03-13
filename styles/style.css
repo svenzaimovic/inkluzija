@@ -1,0 +1,93 @@
+* {
+  font-family: 'Roboto Slab', serif; }
+
+nav {
+  background: #fff;
+  border-bottom: 5px solid #620202; }
+  nav img {
+    width: 100%;
+    height: auto;
+    margin: 16px 0px; }
+
+#header {
+  padding: 32px 0px;
+  background: #9f0010;
+  background: -moz-linear-gradient(top, #9f0010 0%, #ff0033 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #9f0010), color-stop(100%, #ff0033));
+  background: -webkit-linear-gradient(top, #9f0010 0%, #ff0033 100%);
+  background: -o-linear-gradient(top, #9f0010 0%, #ff0033 100%);
+  background: -ms-linear-gradient(top, #9f0010 0%, #ff0033 100%);
+  background: linear-gradient(to bottom, #9f0010 0%, #ff0033 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f0010', endColorstr='#ff0033', GradientType=0 ); }
+  #header .header-img {
+    width: 100%;
+    margin: auto;
+    margin: 24px; }
+  #header .header-kantoni {
+    margin-top: 48px;
+    margin-bottom: 48px; }
+    #header .header-kantoni a {
+      display: table;
+      padding: 0px 24px; }
+    #header .header-kantoni:first-child a {
+      float: right; }
+    #header .header-kantoni img {
+      float: left;
+      width: 100px;
+      margin: 0px; }
+    #header .header-kantoni span {
+      display: block;
+      float: left;
+      width: calc(100% - 124px);
+      font-size: 24pt;
+      color: #fff;
+      margin-left: 24px; }
+
+.scribble-bubbles .bubble-1 img {
+  width: 60%;
+  display: block;
+  margin: auto; }
+.scribble-bubbles .bubble-2 {
+  position: relative;
+  top: -10px;
+  z-index: 10; }
+  .scribble-bubbles .bubble-2 img {
+    width: 70%;
+    display: block;
+    margin: auto; }
+.scribble-bubbles .bubble-3 {
+  z-index: 9;
+  position: relative;
+  top: -24px;
+  margin-bottom: -128px; }
+  .scribble-bubbles .bubble-3 img:first-child {
+    width: 90%;
+    display: block;
+    margin: auto;
+    z-index: 9; }
+  .scribble-bubbles .bubble-3 img:last-child {
+    width: 80%;
+    display: block;
+    margin: auto;
+    z-index: 8;
+    position: relative;
+    top: -20px; }
+
+p {
+  font-size: 13pt;
+  color: #fff;
+  font-weight: 400;
+  text-align: center; }
+
+h3 {
+  text-transform: uppercase;
+  font-size: 25pt;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 24px; }
+
+.lg-text {
+  font-size: 24pt; }
+
+/*# sourceMappingURL=style.css.map */

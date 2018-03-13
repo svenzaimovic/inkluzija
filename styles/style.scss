@@ -1,0 +1,126 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+    background: #fff;
+    border-bottom: 5px solid #620202;
+    img {
+        width: 100%;
+        height: auto;
+        margin: 16px 0px;
+    }
+}
+
+#header {
+    padding: 32px 0px;
+    background: rgba(159,0,16,1);
+    background: -moz-linear-gradient(top, rgba(159,0,16,1) 0%, rgba(255,0,51,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(159,0,16,1)), color-stop(100%, rgba(255,0,51,1)));
+    background: -webkit-linear-gradient(top, rgba(159,0,16,1) 0%, rgba(255,0,51,1) 100%);
+    background: -o-linear-gradient(top, rgba(159,0,16,1) 0%, rgba(255,0,51,1) 100%);
+    background: -ms-linear-gradient(top, rgba(159,0,16,1) 0%, rgba(255,0,51,1) 100%);
+    background: linear-gradient(to bottom, rgba(159,0,16,1) 0%, rgba(255,0,51,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f0010', endColorstr='#ff0033', GradientType=0 );
+    .header-img {
+        width: 100%;
+        margin: auto;
+        margin: 24px;
+    }
+
+    .header-kantoni {
+        margin-top: 48px;
+        margin-bottom: 48px;
+        a {
+            display: table;
+            padding: 0px 24px;
+        }
+
+        &:first-child {
+            a {
+                float: right;
+            }
+        }
+
+
+        img {
+            float: left;
+            width: 100px;
+            margin: 0px;
+        }
+        span {
+            display: block;
+            float: left;
+            width: calc(100% - 124px);
+            font-size: 24pt;
+            color: #fff;
+            margin-left: 24px;
+        }
+    }
+
+
+}
+
+.scribble-bubbles {
+    .bubble-1 {
+        img {
+            width: 60%;
+            display: block;
+            margin: auto;
+        }
+    }
+    .bubble-2 {
+        position: relative;
+        top: -10px;
+        z-index: 10;
+        img {
+            width: 70%;
+            display: block;
+            margin: auto;
+        }
+    }
+
+    .bubble-3 {
+        z-index: 9;
+        position: relative;
+        top: -24px;
+        margin-bottom: -128px;
+        img {
+            &:first-child {
+                width: 90%;
+                display: block;
+                margin: auto;
+                z-index: 9;
+            }
+
+            &:last-child {
+                width: 80%;
+                display: block;
+                margin: auto;
+                z-index: 8;
+                position: relative;
+                top: -20px;
+            }
+        }
+    }
+}
+
+p {
+    font-size: 13pt;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 25pt;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 24px;
+}
+
+.lg-text {
+    font-size: 24pt;
+}
