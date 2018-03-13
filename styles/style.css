@@ -18,7 +18,8 @@ nav {
   background: -o-linear-gradient(top, #9f0010 0%, #ff0033 100%);
   background: -ms-linear-gradient(top, #9f0010 0%, #ff0033 100%);
   background: linear-gradient(to bottom, #9f0010 0%, #ff0033 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f0010', endColorstr='#ff0033', GradientType=0 ); }
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f0010', endColorstr='#ff0033', GradientType=0 );
+  border-bottom: 16px solid #ae0026; }
   #header .header-img {
     width: 100%;
     margin: auto;
@@ -66,7 +67,7 @@ nav {
     margin: auto;
     z-index: 9; }
   .scribble-bubbles .bubble-3 img:last-child {
-    width: 80%;
+    width: 70%;
     display: block;
     margin: auto;
     z-index: 8;
@@ -89,5 +90,16 @@ h3 {
 
 .lg-text {
   font-size: 24pt; }
+
+#cycle {
+  background: url("../assets/img/glowing-bg.png") #ffad4a;
+  background-position: center;
+  background-size: 136%;
+  border-bottom: 16px solid #ae0026; }
+  #cycle img {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: 128px 0px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -58,6 +58,8 @@ nav {
         }
     }
 
+    border-bottom: 16px solid #ae0026;
+
 
 }
 
@@ -94,7 +96,7 @@ nav {
             }
 
             &:last-child {
-                width: 80%;
+                width: 70%;
                 display: block;
                 margin: auto;
                 z-index: 8;
@@ -123,4 +125,18 @@ h3 {
 
 .lg-text {
     font-size: 24pt;
+}
+
+#cycle {
+    background: url('../assets/img/glowing-bg.png') #ffad4a;
+    background-position: center;
+    background-size: 136%;
+    border-bottom: 16px solid #ae0026;
+
+    img {
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding: 128px 0px;
+    }
 }
