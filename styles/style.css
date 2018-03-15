@@ -1,3 +1,6 @@
+@font-face {
+  font-family: 'Hogfish';
+  src: url("../assets/fonts/Hogfish.otf"); }
 * {
   font-family: 'Roboto Slab', serif; }
 
@@ -94,12 +97,102 @@ h3 {
 #cycle {
   background: url("../assets/img/glowing-bg.png") #ffad4a;
   background-position: center;
-  background-size: 136%;
-  border-bottom: 16px solid #ae0026; }
+  background-size: cover;
+  border-bottom: 16px solid #ae0026;
+  position: relative; }
   #cycle img {
     width: 90%;
+    max-width: 786px;
     display: block;
     margin: auto;
     padding: 128px 0px; }
+
+#final .kids-heading {
+  width: 90%;
+  display: block;
+  margin: auto;
+  max-width: 512px;
+  position: relative;
+  z-index: 10;
+  margin-top: -88px; }
+#final .final-gradient {
+  background: #9f0010;
+  background: -moz-linear-gradient(top, #9f0010 0%, #ff0033 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #9f0010), color-stop(100%, #ff0033));
+  background: -webkit-linear-gradient(top, #9f0010 0%, #ff0033 100%);
+  background: -o-linear-gradient(top, #9f0010 0%, #ff0033 100%);
+  background: -ms-linear-gradient(top, #9f0010 0%, #ff0033 100%);
+  background: linear-gradient(to bottom, #9f0010 0%, #ff0033 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f0010', endColorstr='#ff0033', GradientType=0 );
+  position: relative; }
+#final .final-header {
+  background-color: #fff;
+  position: relative;
+  z-index: 9;
+  padding-bottom: 24px; }
+  #final .final-header h2 {
+    margin-bottom: 24px; }
+  #final .final-header ul {
+    width: calc(100% - 180px); }
+    #final .final-header ul li {
+      color: #ec1c24; }
+  #final .final-header .final-header-text img {
+    width: 95%;
+    margin: auto;
+    max-width: 1180px;
+    display: block;
+    margin-top: 48px; }
+  #final .final-header .final-header-first {
+    padding: 24px;
+    border-right: 3px dashed #ec1c24; }
+  #final .final-header .final-header-second {
+    padding: 24px; }
+  #final .final-header .big-hogfish-headeing {
+    font-size: 18pt;
+    font-family: 'Hogfish';
+    color: #EC1C24; }
+  #final .final-header .list-floating-image {
+    position: absolute;
+    bottom: 0px;
+    right: 24px;
+    height: 128px;
+    width: auto; }
+#final .final-diagrams img {
+  width: 90%;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+  padding: 128px 0px;
+  position: relative;
+  z-index: 5; }
+#final .absolute-glow {
+  position: absolute;
+  z-index: 4;
+  top: 0px;
+  width: 100%;
+  height: 100%; }
+#final .final-yellow {
+  background-color: #ffad4a;
+  border-radius: 10px;
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding: 48px;
+  position: relative;
+  z-index: 5; }
+#final .final-yellow-header {
+  display: flex;
+  align-items: center;
+  padding: 0px 24px;
+  margin-bottom: 16px; }
+  #final .final-yellow-header img:first-child {
+    width: 48px;
+    margin-right: 16px;
+    height: auto;
+    float: left; }
+  #final .final-yellow-header img:last-child {
+    float: left;
+    width: calc(100% - 64px);
+    height: 8px; }
 
 /*# sourceMappingURL=style.css.map */
