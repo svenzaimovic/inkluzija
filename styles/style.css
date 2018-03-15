@@ -12,6 +12,9 @@ nav {
     height: auto;
     margin: 16px 0px; }
 
+.no-gutters {
+  padding: 0px; }
+
 #header {
   padding: 32px 0px;
   background: #9f0010;
@@ -157,20 +160,19 @@ h3 {
     right: 24px;
     height: 128px;
     width: auto; }
-#final .final-diagrams img {
-  width: 90%;
-  max-width: 700px;
-  display: block;
-  margin: auto;
-  padding: 128px 0px;
-  position: relative;
-  z-index: 5; }
-#final .absolute-glow {
-  position: absolute;
-  z-index: 4;
-  top: 0px;
-  width: 100%;
-  height: 100%; }
+#final .final-diagrams {
+  background: url("../assets/img/glowing-bg.png");
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat; }
+  #final .final-diagrams .diagram {
+    width: 90%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    padding: 128px 0px;
+    position: relative;
+    z-index: 5; }
 #final .final-yellow {
   background-color: #ffad4a;
   border-radius: 10px;
@@ -180,10 +182,17 @@ h3 {
   padding: 48px;
   position: relative;
   z-index: 5; }
+  #final .final-yellow p {
+    text-align: left;
+    color: #333333;
+    padding: 0px 24px;
+    border-left: 2px solid #fff; }
+  #final .final-yellow .yellow-item:first-child p {
+    border: none; }
 #final .final-yellow-header {
   display: flex;
   align-items: center;
-  padding: 0px 24px;
+  padding: 0px 48px;
   margin-bottom: 16px; }
   #final .final-yellow-header img:first-child {
     width: 48px;
@@ -194,5 +203,45 @@ h3 {
     float: left;
     width: calc(100% - 64px);
     height: 8px; }
+#final .final-scribbles {
+  margin-top: 64px; }
+  #final .final-scribbles img {
+    width: 100%; }
+  #final .final-scribbles .final-scribble-2 {
+    width: 80%;
+    display: block;
+    margin: auto; }
+  #final .final-scribbles .row {
+    align-items: center; }
+#final .final-links {
+  margin: 64px 0px; }
+  #final .final-links .row {
+    align-items: center; }
+#final .final-link-wrapper img {
+  width: 100%;
+  position: relative;
+  z-index: 5; }
+  #final .final-link-wrapper img:first-child {
+    width: 80%;
+    position: relative;
+    top: 16px;
+    display: block;
+    margin: auto;
+    z-index: 4; }
+#final .final-list {
+  padding-bottom: 48px; }
+#final .final-list-item {
+  margin-bottom: 16px; }
+  #final .final-list-item img {
+    width: 64px;
+    height: auto;
+    float: left;
+    margin-right: 24px; }
+  #final .final-list-item p {
+    float: left;
+    width: calc(100% - 88px);
+    text-align: left;
+    font-size: 14pt;
+    font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
