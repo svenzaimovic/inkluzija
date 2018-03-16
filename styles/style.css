@@ -28,8 +28,7 @@ nav {
   border-bottom: 16px solid #ae0026; }
   #header .header-img {
     width: 100%;
-    margin: auto;
-    margin: 24px; }
+    margin: auto; }
   #header .header-kantoni {
     margin-top: 48px;
     margin-bottom: 48px; }
@@ -243,5 +242,41 @@ h3 {
     text-align: left;
     font-size: 14pt;
     font-weight: bold; }
+
+/*******************
+EMIR - Start
+*******************/
+/*******************
+EMIR - End
+*******************/
+@media (max-width: 991px) {
+  #final .final-header ul {
+    width: calc(100% - 122px); }
+
+  #final .final-yellow p {
+    border: none; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 900px; } }
+@media (max-width: 767px) {
+  #header p {
+    font-size: 11pt; }
+  #header .lg-text {
+    font-size: 16pt; }
+
+  #header .header-kantoni {
+    margin: 24px 0px; }
+
+  #header .header-kantoni a {
+    float: none;
+    margin: auto; }
+    #header .header-kantoni a:first-child {
+      float: none; } }
+@media (max-width: 575px) {
+  nav img {
+    width: 70%;
+    display: block;
+    height: auto;
+    margin: 16px auto; } }
 
 /*# sourceMappingURL=style.css.map */
