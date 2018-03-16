@@ -683,6 +683,10 @@ EMIR - End
     #final .final-list-item p {
         font-size: 12pt;
     }
+
+    #final .final-yellow .yellow-item p {
+    font-size: 11pt;
+}
 }
 
 @media (max-width: 575px) {
@@ -702,13 +706,16 @@ EMIR - End
         width: 70%;
     }
     #final .final-diagrams {
-        background-size: 350% 39%;
+        background-size: 350% 48%;
+    }
+    #final .final-yellow {
+        padding: 24px;
     }
 }
 
 @media (max-width: 450px) {
     #final .final-diagrams {
-        background-size: 350% 30%;
+        background-size: 350% 40%;
     }
 }
 
@@ -719,6 +726,6 @@ EMIR - End
         }
     }
     #final .final-diagrams {
-        background-size: 350% 185vw;
+        background-size: 350% 157vw;
     }
 }

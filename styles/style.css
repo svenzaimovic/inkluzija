@@ -489,7 +489,10 @@ EMIR - End
     display: block; }
 
   #final .final-list-item p {
-    font-size: 12pt; } }
+    font-size: 12pt; }
+
+  #final .final-yellow .yellow-item p {
+    font-size: 11pt; } }
 @media (max-width: 575px) {
   nav img {
     width: 70%;
@@ -504,15 +507,18 @@ EMIR - End
     width: 70%; }
 
   #final .final-diagrams {
-    background-size: 350% 39%; } }
+    background-size: 350% 48%; }
+
+  #final .final-yellow {
+    padding: 24px; } }
 @media (max-width: 450px) {
   #final .final-diagrams {
-    background-size: 350% 30%; } }
+    background-size: 350% 40%; } }
 @media (max-width: 374px) {
   #header p {
     font-size: 8pt; }
 
   #final .final-diagrams {
-    background-size: 350% 185vw; } }
+    background-size: 350% 157vw; } }
 
 /*# sourceMappingURL=style.css.map */
