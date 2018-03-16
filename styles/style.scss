@@ -80,37 +80,80 @@ nav {
         }
     }
     .bubble-2 {
+        background-color: #fff;
         position: relative;
         top: -10px;
         z-index: 10;
+        border-radius: 24px;
+        width: 100%;
+        max-width: 512px;
+        margin: auto;
+        padding: 24px;
+
+        p {
+            color: #E2001A;
+            margin-bottom: 0px;
+            text-align: left;
+            display: table-cell;
+        }
         img {
-            width: 70%;
-            display: block;
-            margin: auto;
+            width: 64px;
+            display: inline-block;
+            float:left;
+            margin-right: 24px;
         }
     }
 
-    .bubble-3 {
-        z-index: 9;
-        position: relative;
-        top: -24px;
-        margin-bottom: -128px;
-        img {
-            &:first-child {
-                width: 90%;
-                display: block;
-                margin: auto;
-                z-index: 9;
-            }
 
-            &:last-child {
-                width: 70%;
-                display: block;
-                margin: auto;
-                z-index: 8;
-                position: relative;
-                top: -13px;
-            }
+}
+
+.bubble-3 {
+
+    .bubble-3-title {
+        width: 80%;
+        max-width: 320px;
+        margin-bottom: 24px;
+        display: block;
+        margin: auto;
+    }
+
+    .bubble-3-inner {
+        margin-top: 64px;
+        .strategies-heading {
+            font-family: "Hogfish";
+        }
+        .strategies-image {
+            width: 100%;
+            max-width: 128px;
+        }
+    }
+
+    .bubble-3-background {
+        background-color: #99161F;
+        padding: 24px;
+        padding-top: 200px;
+        margin-top: -175px;
+    }
+
+    z-index: 9;
+    position: relative;
+    top: -24px;
+    margin-bottom: -128px;
+    img {
+        &:first-child {
+            width: 90%;
+            display: block;
+            margin: auto;
+            z-index: 9;
+        }
+
+        &:last-child {
+            width: 70%;
+            display: block;
+            margin: auto;
+            z-index: 8;
+            position: relative;
+            top: -13px;
         }
     }
 }
@@ -359,6 +402,13 @@ EMIR - End
     #final .final-yellow p {
         border: none;
     }
+
+    .strategies-heading {
+        font-size: 20pt;
+    }
+    .bubble-3 .bubble-3-background {
+        margin-top: -160px;
+    }
 }
 
 
@@ -384,9 +434,31 @@ EMIR - End
 
     #header .header-kantoni a {
         float: none;
-        margin: auto;
+
         &:first-child {
             float: none;
+        }
+
+        img {
+            width: 75px;
+
+        }
+
+        span {
+            font-size: 18pt;
+            width: auto;
+        }
+    }
+
+    .bubble-3 {
+
+        .strategies-heading {
+            font-size: 14pt;
+        }
+
+        .bubble-3-background {
+            margin-top: 0px;
+            padding-top: 24px;
         }
     }
 }
@@ -402,6 +474,8 @@ EMIR - End
     }
 
     #header {
+
+
 
     }
 }

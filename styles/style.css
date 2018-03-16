@@ -54,24 +54,55 @@ nav {
   display: block;
   margin: auto; }
 .scribble-bubbles .bubble-2 {
+  background-color: #fff;
   position: relative;
   top: -10px;
-  z-index: 10; }
+  z-index: 10;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 512px;
+  margin: auto;
+  padding: 24px; }
+  .scribble-bubbles .bubble-2 p {
+    color: #E2001A;
+    margin-bottom: 0px;
+    text-align: left;
+    display: table-cell; }
   .scribble-bubbles .bubble-2 img {
-    width: 70%;
-    display: block;
-    margin: auto; }
-.scribble-bubbles .bubble-3 {
+    width: 64px;
+    display: inline-block;
+    float: left;
+    margin-right: 24px; }
+
+.bubble-3 {
   z-index: 9;
   position: relative;
   top: -24px;
   margin-bottom: -128px; }
-  .scribble-bubbles .bubble-3 img:first-child {
+  .bubble-3 .bubble-3-title {
+    width: 80%;
+    max-width: 320px;
+    margin-bottom: 24px;
+    display: block;
+    margin: auto; }
+  .bubble-3 .bubble-3-inner {
+    margin-top: 64px; }
+    .bubble-3 .bubble-3-inner .strategies-heading {
+      font-family: "Hogfish"; }
+    .bubble-3 .bubble-3-inner .strategies-image {
+      width: 100%;
+      max-width: 128px; }
+  .bubble-3 .bubble-3-background {
+    background-color: #99161F;
+    padding: 24px;
+    padding-top: 200px;
+    margin-top: -175px; }
+  .bubble-3 img:first-child {
     width: 90%;
     display: block;
     margin: auto;
     z-index: 9; }
-  .scribble-bubbles .bubble-3 img:last-child {
+  .bubble-3 img:last-child {
     width: 70%;
     display: block;
     margin: auto;
@@ -254,7 +285,13 @@ EMIR - End
     width: calc(100% - 122px); }
 
   #final .final-yellow p {
-    border: none; } }
+    border: none; }
+
+  .strategies-heading {
+    font-size: 20pt; }
+
+  .bubble-3 .bubble-3-background {
+    margin-top: -160px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .container {
     max-width: 900px; } }
@@ -268,10 +305,20 @@ EMIR - End
     margin: 24px 0px; }
 
   #header .header-kantoni a {
-    float: none;
-    margin: auto; }
+    float: none; }
     #header .header-kantoni a:first-child {
-      float: none; } }
+      float: none; }
+    #header .header-kantoni a img {
+      width: 75px; }
+    #header .header-kantoni a span {
+      font-size: 18pt;
+      width: auto; }
+
+  .bubble-3 .strategies-heading {
+    font-size: 14pt; }
+  .bubble-3 .bubble-3-background {
+    margin-top: 0px;
+    padding-top: 24px; } }
 @media (max-width: 575px) {
   nav img {
     width: 70%;
