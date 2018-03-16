@@ -426,7 +426,7 @@ EMIR - Start
             float: right;
         }
         .row {
-            margin-top: 80px;
+            margin-top: 40px;
         }
     }
     .header-bubbles {
@@ -449,6 +449,8 @@ EMIR - Start
         margin-top: 64px;
         background-color: #9f0010;
         padding: 24px;
+        padding-top: 56px;
+        padding-bottom: 56px;
         border-radius: 24px;
         h3 {
             margin-top: 24px;
@@ -534,6 +536,19 @@ EMIR - End
 *******************/
 
 @media (max-width: 991px) {
+    #sarajevo-header {
+        .header-top-imgs {
+            img {
+                width: 100%;
+                margin-left: 0%;
+            }
+            .heading-paragraph {
+                width: 100%;
+                margin-left: 0%;
+            }
+        }
+    }
+
     #final .final-header ul {
         width: calc(100% - 122px);
     }
@@ -558,6 +573,38 @@ EMIR - End
 }
 
 @media (max-width: 767px) {
+    #sarajevo-header {
+        .last-dash {
+            width: 100%;
+        }
+        .header-information {
+            font-size: 11pt;
+            margin-left: 0%;
+            p {
+                width: 100%;
+                margin-left: 0%;
+            }
+            ul {
+                width: 100%;
+                margin-left: 0%;
+            }
+        }
+        .header-status {
+            img {
+                max-width: 767px;
+                width: 100%;
+                display: block;
+                margin: auto;
+                margin-top: 0px;
+            }
+        }
+        .bubbles {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            margin: 0px !important;
+        }
+    }
+
     #header {
         p {
             font-size: 11pt;
