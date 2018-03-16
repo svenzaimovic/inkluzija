@@ -71,6 +71,37 @@ nav {
 
 }
 
+.custom-modal {
+    background-color: #fff;
+    border-radius: 24px;
+    .modal-header {
+        border-bottom: 0px;
+        border-radius: 24px;
+        padding-left: 32px;
+    }
+    .modal-title {
+        font-family: 'Hogfish';
+        color: #E2001A;
+        padding-top: 8px;
+    }
+    .close {
+        padding: 6px 12px;
+        span {
+            color: rgb(226, 0, 26);
+        }
+
+    }
+
+    .modal-content {
+        border-radius: 24px;
+        color: #E2001A;
+    }
+
+    .modal-body {
+        padding: 0px 32px 32px;
+    }
+}
+
 .scribble-bubbles {
     .bubble-1 {
         img {
@@ -78,6 +109,7 @@ nav {
             display: block;
             margin: auto;
         }
+
     }
     .bubble-2 {
         background-color: #fff;

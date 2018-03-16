@@ -49,6 +49,27 @@ nav {
       color: #fff;
       margin-left: 24px; }
 
+.custom-modal {
+  background-color: #fff;
+  border-radius: 24px; }
+  .custom-modal .modal-header {
+    border-bottom: 0px;
+    border-radius: 24px;
+    padding-left: 32px; }
+  .custom-modal .modal-title {
+    font-family: 'Hogfish';
+    color: #E2001A;
+    padding-top: 8px; }
+  .custom-modal .close {
+    padding: 6px 12px; }
+    .custom-modal .close span {
+      color: #e2001a; }
+  .custom-modal .modal-content {
+    border-radius: 24px;
+    color: #E2001A; }
+  .custom-modal .modal-body {
+    padding: 0px 32px 32px; }
+
 .scribble-bubbles .bubble-1 img {
   width: 60%;
   display: block;
