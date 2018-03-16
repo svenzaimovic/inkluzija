@@ -300,7 +300,7 @@ EMIR - Start
     background-color: #fff;
     font-weight: 700;
     padding: 30px;
-    font-size: 36px;
+    font-size: 24px;
     border-radius: 20px; }
   #sarajevo-header .header-list {
     color: #FFF;
@@ -394,8 +394,8 @@ EMIR - End
 *******************/
 @media (max-width: 991px) {
   #sarajevo-header .header-top-imgs img {
-    width: 100%;
-    margin-left: 0%; }
+    width: 95%;
+    margin-left: 2.5%; }
   #sarajevo-header .header-top-imgs .heading-paragraph {
     width: 100%;
     margin-left: 0%; }
@@ -426,16 +426,19 @@ EMIR - End
     #sarajevo-header .header-information ul {
       width: 100%;
       margin-left: 0%; }
+  #sarajevo-header .heading-paragraph {
+    font-size: 11pt !important; }
   #sarajevo-header .header-status img {
     max-width: 767px;
-    width: 100%;
+    width: 90%;
     display: block;
     margin: auto;
     margin-top: 0px; }
   #sarajevo-header .bubbles {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    margin: 0px !important; }
+    width: 100%;
+    max-width: 256px;
+    display: block;
+    margin: -5px auto !important; }
 
   #header p {
     font-size: 11pt; }
