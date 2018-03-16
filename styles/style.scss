@@ -267,7 +267,7 @@ h3 {
     }
     .final-diagrams {
         background:url('../assets/img/glowing-bg.png');
-        background-size: 100%;
+        background-size: 100% 80%;
         background-position: top center;
         background-repeat: no-repeat;
         .diagram {
@@ -443,7 +443,7 @@ EMIR - Start
         .bubbles {
             padding:0px;
             margin: 0px -12px;
-        }   
+        }
     }
     .header-information {
         margin-top: 64px;
@@ -454,7 +454,7 @@ EMIR - Start
         border-radius: 24px;
         h3 {
             margin-top: 24px;
-            font-family: 'Hogfish';            
+            font-family: 'Hogfish';
         }
         p {
             width: 80%;
@@ -563,6 +563,10 @@ EMIR - End
     .bubble-3 .bubble-3-background {
         margin-top: -160px;
     }
+
+    #final .final-diagrams {
+        background-size: 100% 60%;
+    }
 }
 
 
@@ -652,6 +656,33 @@ EMIR - End
             padding-top: 24px;
         }
     }
+    #final .final-diagrams {
+        background-size: 100% 50%;
+    }
+    #final .final-header .final-header-first {
+        border: none;
+    }
+    #final .final-header ul {
+        font-size: 8pt;
+        width: calc(100% - 55px);
+    }
+
+    #final .final-header .list-floating-image {
+        height: 64px;
+
+    }
+
+    #final .final-header .big-hogfish-headeing {
+        font-size: 14pt;
+    }
+    #final .final-scribbles img {
+        width: 60%;
+        margin: 24px auto;
+        display: block;
+    }
+    #final .final-list-item p {
+        font-size: 12pt;
+    }
 }
 
 @media (max-width: 575px) {
@@ -664,9 +695,30 @@ EMIR - End
         }
     }
 
+    .scribble-bubbles .bubble-1 img {
+        width: 100%;
+    }
+    .bubble-3 img:first-child {
+        width: 70%;
+    }
+    #final .final-diagrams {
+        background-size: 350% 39%;
+    }
+}
+
+@media (max-width: 450px) {
+    #final .final-diagrams {
+        background-size: 350% 30%;
+    }
+}
+
+@media (max-width: 374px) {
     #header {
-
-
-
+        p {
+            font-size: 8pt;
+        }
+    }
+    #final .final-diagrams {
+        background-size: 350% 185vw;
     }
 }

@@ -192,7 +192,7 @@ h3 {
     width: auto; }
 #final .final-diagrams {
   background: url("../assets/img/glowing-bg.png");
-  background-size: 100%;
+  background-size: 100% 80%;
   background-position: top center;
   background-repeat: no-repeat; }
   #final .final-diagrams .diagram {
@@ -410,7 +410,10 @@ EMIR - End
     font-size: 20pt; }
 
   .bubble-3 .bubble-3-background {
-    margin-top: -160px; } }
+    margin-top: -160px; }
+
+  #final .final-diagrams {
+    background-size: 100% 60%; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .container {
     max-width: 900px; } }
@@ -462,12 +465,54 @@ EMIR - End
     font-size: 14pt; }
   .bubble-3 .bubble-3-background {
     margin-top: 0px;
-    padding-top: 24px; } }
+    padding-top: 24px; }
+
+  #final .final-diagrams {
+    background-size: 100% 50%; }
+
+  #final .final-header .final-header-first {
+    border: none; }
+
+  #final .final-header ul {
+    font-size: 8pt;
+    width: calc(100% - 55px); }
+
+  #final .final-header .list-floating-image {
+    height: 64px; }
+
+  #final .final-header .big-hogfish-headeing {
+    font-size: 14pt; }
+
+  #final .final-scribbles img {
+    width: 60%;
+    margin: 24px auto;
+    display: block; }
+
+  #final .final-list-item p {
+    font-size: 12pt; } }
 @media (max-width: 575px) {
   nav img {
     width: 70%;
     display: block;
     height: auto;
-    margin: 16px auto; } }
+    margin: 16px auto; }
+
+  .scribble-bubbles .bubble-1 img {
+    width: 100%; }
+
+  .bubble-3 img:first-child {
+    width: 70%; }
+
+  #final .final-diagrams {
+    background-size: 350% 39%; } }
+@media (max-width: 450px) {
+  #final .final-diagrams {
+    background-size: 350% 30%; } }
+@media (max-width: 374px) {
+  #header p {
+    font-size: 8pt; }
+
+  #final .final-diagrams {
+    background-size: 350% 185vw; } }
 
 /*# sourceMappingURL=style.css.map */
