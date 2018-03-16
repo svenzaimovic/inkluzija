@@ -663,7 +663,7 @@ EMIR - End
         border: none;
     }
     #final .final-header ul {
-        font-size: 8pt;
+        font-size: 10pt;
         width: calc(100% - 55px);
     }
 
@@ -727,5 +727,8 @@ EMIR - End
     }
     #final .final-diagrams {
         background-size: 350% 157vw;
+    }
+    #final .final-header ul {
+        font-size: 8pt;
     }
 }

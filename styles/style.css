@@ -474,7 +474,7 @@ EMIR - End
     border: none; }
 
   #final .final-header ul {
-    font-size: 8pt;
+    font-size: 10pt;
     width: calc(100% - 55px); }
 
   #final .final-header .list-floating-image {
@@ -519,6 +519,9 @@ EMIR - End
     font-size: 8pt; }
 
   #final .final-diagrams {
-    background-size: 350% 157vw; } }
+    background-size: 350% 157vw; }
+
+  #final .final-header ul {
+    font-size: 8pt; } }
 
 /*# sourceMappingURL=style.css.map */
