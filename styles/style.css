@@ -12,6 +12,22 @@ nav {
     height: auto;
     margin: 16px 0px; }
 
+a {
+  color: #620202;
+  font-weight: 400; }
+  a:hover {
+    color: #620202; }
+  a:focus {
+    outline: none; }
+    a:focus img {
+      outline: none; }
+      a:focus img:focus {
+        outline: none; }
+  a img {
+    outline: none; }
+    a img:focus {
+      outline: none; }
+
 .no-gutters {
   padding: 0px; }
 
@@ -60,10 +76,8 @@ nav {
     font-family: 'Hogfish';
     color: #E2001A;
     padding-top: 8px; }
-  .custom-modal .close {
-    padding: 6px 12px; }
-    .custom-modal .close span {
-      color: #e2001a; }
+  .custom-modal .close span {
+    color: #e2001a; }
   .custom-modal .modal-content {
     border-radius: 24px;
     color: #E2001A; }
@@ -281,6 +295,10 @@ h3 {
     z-index: 4; }
 #final .final-list {
   padding-bottom: 48px; }
+#final .list-link p {
+  transition: all 0.25s; }
+#final .list-link:hover p {
+  opacity: 0.8; }
 #final .final-list-item {
   margin-bottom: 16px; }
   #final .final-list-item img {
