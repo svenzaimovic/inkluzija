@@ -445,6 +445,12 @@ h3 {
 
     .final-list {
         padding-bottom: 48px;
+        h3 {
+            display: block;
+            margin: auto;
+            margin-bottom: 24px;
+            font-family: 'Hogfish';
+        }
     }
 
     .list-link {

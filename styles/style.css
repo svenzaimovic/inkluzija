@@ -312,6 +312,11 @@ h3 {
     z-index: 4; }
 #final .final-list {
   padding-bottom: 48px; }
+  #final .final-list h3 {
+    display: block;
+    margin: auto;
+    margin-bottom: 24px;
+    font-family: 'Hogfish'; }
 #final .list-link p {
   transition: all 0.25s; }
 #final .list-link:hover p {
