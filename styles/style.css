@@ -12,6 +12,9 @@ nav {
     height: auto;
     margin: 16px 0px; }
 
+.relative {
+  position: relative; }
+
 a {
   color: #620202;
   font-weight: 400;
@@ -33,6 +36,12 @@ a {
     outline: none; }
     a img:focus {
       outline: none; }
+
+.link-arrow {
+  position: absolute;
+  bottom: -10px;
+  right: -32px;
+  margin-right: 0px !important; }
 
 .no-gutters {
   padding: 0px; }

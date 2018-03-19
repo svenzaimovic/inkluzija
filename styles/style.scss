@@ -17,6 +17,10 @@ nav {
     }
 }
 
+.relative {
+    position: relative;
+}
+
 a {
     color: #620202;
     font-weight: 400;
@@ -46,6 +50,13 @@ a {
             outline: none;
         }
     }
+}
+
+.link-arrow {
+    position: absolute;
+    bottom: -10px;
+    right: -32px;
+    margin-right: 0px !important;
 }
 
 .no-gutters {
