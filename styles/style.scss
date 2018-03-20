@@ -55,7 +55,7 @@ a {
 .link-arrow {
     position: absolute;
     bottom: -10px;
-    right: -32px;
+    right: -12px;
     margin-right: 0px !important;
 }
 
@@ -265,6 +265,24 @@ h3 {
         margin: auto;
         padding: 128px 0px;
     }
+
+    .show-hover {
+        display: none;
+    }
+
+    .hover-trigger {
+        opacity: 1 !important;
+        &:hover {
+            opacity: 1 !important;
+            .hide-hover {
+                display: none;
+            }
+            .show-hover {
+                display: block;
+                opacity: 1 !important;
+            }
+        }
+    }
 }
 
 #final {
@@ -465,14 +483,13 @@ h3 {
     }
 
     .list-link {
-        p {
-            transition: all 0.25s;
-        }
+        cursor: pointer;
+        font-weight: 500;
+        color: #ffad4a;
         &:hover {
-            p {
-                opacity: 0.8;
-            }
+
         }
+
     }
 
     .final-list-item {

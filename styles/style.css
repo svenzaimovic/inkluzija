@@ -40,7 +40,7 @@ a {
 .link-arrow {
   position: absolute;
   bottom: -10px;
-  right: -32px;
+  right: -12px;
   margin-right: 0px !important; }
 
 .no-gutters {
@@ -189,6 +189,17 @@ h3 {
     display: block;
     margin: auto;
     padding: 128px 0px; }
+  #cycle .show-hover {
+    display: none; }
+  #cycle .hover-trigger {
+    opacity: 1 !important; }
+    #cycle .hover-trigger:hover {
+      opacity: 1 !important; }
+      #cycle .hover-trigger:hover .hide-hover {
+        display: none; }
+      #cycle .hover-trigger:hover .show-hover {
+        display: block;
+        opacity: 1 !important; }
 
 #final .kids-heading {
   width: 90%;
@@ -326,10 +337,10 @@ h3 {
     margin: auto;
     margin-bottom: 24px;
     font-family: 'Hogfish'; }
-#final .list-link p {
-  transition: all 0.25s; }
-#final .list-link:hover p {
-  opacity: 0.8; }
+#final .list-link {
+  cursor: pointer;
+  font-weight: 500;
+  color: #ffad4a; }
 #final .final-list-item {
   margin-bottom: 16px; }
   #final .final-list-item img {
