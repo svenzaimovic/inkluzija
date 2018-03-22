@@ -487,6 +487,13 @@ EMIR - Start
     width: 50%;
     margin-left: 25%; }
 
+.status-message {
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-bottom: 24px; }
+
 /*******************
 EMIR - End
 *******************/
