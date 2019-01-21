@@ -15,6 +15,10 @@ nav {
 .relative {
   position: relative; }
 
+.center {
+  margin: auto;
+  float: none !important; }
+
 a {
   color: #620202;
   font-weight: 400;
